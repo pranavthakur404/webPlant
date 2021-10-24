@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Plant | Front-end, UI Development, Web Development, Application Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <a href="#note"><i class="fa fa-arrow-up" id="up-arrow"></i></a>
+
+    <!-- note section start -->
+    <div class="note" id="note">
+        <div class="note-inner">
+            <p>We're looking for talented UI Developers. Mail us at resume@thewebplant.com</p>
+            <i class="fa fa-facebook"></i>
+        </div>
+    </div>
+
+    <!-- navigation section start -->
+    <nav>
+        <div class="nav-inner">
+            <a href="/index.html"><img src="images/thewebplant_logo_small.png" alt=""></a>
+            <ul id="nav-links">
+                <a href="/services.html"><li>Services</li></a>
+                <a href="/careers.html"><li>Careers</li></a>
+                <a href="/aboutUs.html"><li>About Us</li></a>
+                <a href="/request-to-quote.html"><li>Request a Quote</li></a>
+                <a href="/contact.html"><li>Contact</li></a>
+                <a href="/blog.html"><li>Blog</li></a>
+                <a href="/our-office.html"><li>Our Office</li></a>
+                <a href=""><li class="line">|</li></a>
+                <i class="fa fa-search" onclick="search()"></i>
+                <li class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="search" placeholder="Search..">
+                </li>
+            </ul>
+
+            <i class="fa fa-navicon" id="navicon" onclick="navbar()"></i>
+
+        </div>
+
+        
+        <!-- search box -->
+        <div class="search-box" id="search-tab">
+            <input type="text" placeholder="To Search Start Typing ...">
+            <i class="fa fa-close" onclick="closeSearch()"></i>
+        </div>
+    </nav>
+    <!-- navigation section ends -->
+
+    <!-- banner section ends -->
+    <section class="banner">
+        <!-- <video src="images/Welcome to the web plant.mp4" autoplay muted loop></video> -->
+        <img src="images/Video-poster.jpg" alt="">
+    </section>
+
+    <!-- service section start -->
+    <section class="service">
+        <div class="box box1">
+            <i class="fa fa-cube"></i>
+            <div class="text">
+                <h2>IT Solutions</h2>
+                <p>If you are a small or family owned business growing at a rapid rate, your IT systems and equipments
+                    will need to keep pace</p>
+            </div>
+        </div>
+        <div class="box box2">
+            <i class="fa fa-gear"></i>
+            <div class="text">
+                <h2>Application Development Services</h2>
+                <p>As your business grows from a startup or a small company to a bigger organisation, it becomes a
+                    daunting task to ensure that your business</p>
+            </div>
+        </div>
+        <div class="box box3">
+            <i class="fa fa-mobile-phone"></i>
+            <div class="text">
+                <h2>Mobile Development & CMS</h2>
+                <p>We provide specialised web technology-oriented solutions by combining the processes and functions of
+                    software, hardware, networks and telecommunications.</p>
+            </div>
+        </div>
+    </section>
+    <!-- service section ends -->
+
+    <!-- about section start -->
+    <section class="about">
+        <h1>About Us</h1>
+        <p>We are a web development, application development and outsourcing company based in New Delhi, India. With the
+            co-founders having decades of experience in application development, maintenance, deployment and development
+            – you can be sure that you are dealing with experts. Our approach is completely customer-centric, We offer
+            you the world class solutions suited to your requirements.</p>
+    </section>
+    <!-- about section ends -->
+
+    <!-- icon section start -->
+    <section class="icon">
+        <div class="icon-inner">
+            <div class="box">
+                <i class="fa fa-wechat"></i>
+                <p>Discuss</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-pencil"></i>
+                <p>Concept</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-gear"></i>
+                <p>Production</p>
+            </div>
+            <div class="box">
+                <i class="fa fa fa-paper-plane-o"></i>
+                <p>Launch</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-umbrella"></i>
+                <p>Service</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-heart-o"></i>
+                <p>Happy Client</p>
+            </div>
+        </div>
+    </section>
+    <!-- icon section ends -->
+
+    <!-- four about section  -->
+    <section class="four-box">
+        <div class="box text">
+            <h1>WHO WE ARE</h1>
+            <hr>
+            <p>The WebPlant is more than a career or a stepping stone: it’s the adopted family of those who’ve called it
+                home. Most of our employees have been present since the start of our journey.</p>
+        </div>
+        <div class="box image">
+            <img src="images/laptop-image.jpeg" alt="">
+        </div>
+        <div class="box image">
+            <img src="images/mobile-image.jpg" alt="">
+        </div>
+        <div class="box text text2">
+            <h1>WHY THE WEBPLANT? GLAD YOU ASKED!</h1>
+            <hr>
+            <p>We know how hard it is to pick a team. If The Webplant good?! (Yup). Is the team easy to work with? (Also
+                yes). Will they deliver solid work at an honest rate? (Our clients think so!).</p>
+        </div>
+    </section>
+    <!-- four about section  ends -->
+
+    <!-- quote section start -->
+    <section class="quote">
+        <h1>Your road to success!</h1>
+        <p>Technology is nothing. What’s important is that you have a faith in people, that they’re basically good and
+            smart, and if you give them tools, they’ll do wonderful things with them.</p>
+    </section>
+    <!-- quote section ends -->
+
+    <!-- our work section -->
+    <section class="our-work">
+        <div class="box">
+            <h3>Web Design</h3>
+            <p>Web Design is what we do. We’ve been doing it for years. It’s our core service and it’s what we’re best
+                at. We pride ourselves on designing bespoke solutions that are perfectly tailored to addressing the
+                needs of our clients. Not only as they stand today, but as those needs grow and change.</p>
+        </div>
+        <div class="box">
+            <h3>Responsive Design</h3>
+            <p>With the ever growing rise in mobile users, responsive design is becoming the norm, and is practically a
+                must-have for all new websites. We have a comprehensive and inclusive approach to website planning that
+                means that everything we do has responsiveness in mind from the outset.</p>
+        </div>
+        <div class="box">
+            <h3>Web Development</h3>
+            <p>We’re very proud of the build quality of our websites. Keeping up to date with emerging technologies and
+                best practices is all part of the fun for us, and it serves us well when it comes to delivering websites
+                that are reliable, stable, lightweight and secure, with only the cleanest of code.</p>
+        </div>
+        <div class="box">
+            <h3>App Development</h3>
+            <p>The planning and development of complicated systems is one of our main specialities. So much so, that we
+                have developed something of a reputation in this area of expertise. This may include work such as large
+                bespoke web applications, mobile apps, API based systems and full business management tools.</p>
+        </div>
+        <div class="box">
+            <h3>Ecommerce</h3>
+            <p>We have been building ecommerce websites for years, and have worked with a wide range of platforms and
+                payment systems. This experience means we can offer valuable advice on any ecommerce project and puts us
+                in a great position to help our clients to maximise commercial opportunities and achieve online success.
+            </p>
+        </div>
+        <div class="box">
+            <h3>Software Design & Development</h3>
+            <p>A shared vision and ongoing collaboration between our designers, developers and you are key to forging a
+                great product. With out in-house QA team, you can be sure of a bug-free and high quality software.</p>
+        </div>
+    </section>
+    <!-- our work section ends -->
+
+    <!-- function section -->
+    <section class="function">
+        <div class="function-inner">
+            <h1>Join Our Ever-growing Team!</h1>
+            <p>We are always looking for talented individuals to join our teams. Simply mail your resume at
+                resume@thewebplant.com and we’ll call you back!</p>
+            <img src="images/Function-Image.jpg" alt="">
+        </div>
+    </section>
+    <!-- function section ends -->
+
+    <!-- team speaks section start -->
+    <section class="team-speaks">
+        <h1 class="head">Team Speak</h1>
+        <div class="text">
+            <div class="para" id="para1">
+                <p>An expert in web accessibility and standards-based web design, he oversees all the the technical
+                    aspects of our projects. Apart from work, you could describe him as a Road Biker, Mountain Climber,
+                    Owner of guitar called Monsoon.</p>
+                <h3>-Manoj Bisht</h3>
+            </div>
+            <div class="para" id="para2">
+                <p>After many years working in the industry with different roles he developed a solid understanding in
+                    all aspects of Web Development. After office, he can be found at a unique restaurant for something
+                    new dishes & In his spare time he"s usally relaxing at home.</p>
+                <h3>-Dishant Sachdeva</h3>
+            </div>
+            <div class="para" id="para3">
+                <p>He believes that creativity is the essence of his life and that someday, it will take him places. He
+                    has tried to silence his hunger for creativity by being a part of Company. He believe in Art means
+                    Business, if you design and develop something it must work in business</p>
+                <h3>-Dipu pandey</h3>
+            </div>
+            <div class="para" id="para4">
+                <p>Passionate and innovative. He is the one who believes in Quality than Quantity. Believes that sucess
+                    is only achieved when others look up to you as an inspiration. Apart from work, he enjoys music and
+                    movies after the most important thing-food!</p>
+                <h3>-Anish</h3>
+            </div>
+        </div>
+        <div class="button">
+            <i class="fa fa-circle" id="btn1" onclick="text1()"></i>
+            <i class="fa fa-circle" id="btn2" onclick="text2()"></i>
+            <i class="fa fa-circle" id="btn3" onclick="text3()"></i>
+            <i class="fa fa-circle" id="btn4" onclick="text4()"></i>
+        </div>
+    </section>
+    <!-- team speaks section ends -->
+
+    <!-- location section start -->
+    <section class="location">
+        <div class="box map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56087.06090063875!2d77.23905717736609!3d28.52645233748527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2205cd20437%3A0x3166e1de810705a5!2sThe%20Webplant%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1634140095899!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="box text">
+            <h1>Meet Us</h1>
+
+            <h4>The Webplant Pvt Ltd</h4>
+            <p>B-99, Third Floor, Panchsheel Vihar, <br>
+                Sheikh Sarai Ph-I, New Delhi-110017 <br>
+                India</p>
+            <ul class="contact">
+                <li><span class="grey">Phone:</span> (011) 41034364</li>
+                <li><span class="grey">E-Mail:</span> sales@thewebplant.com</li>
+            </ul>
+        </div>
+    </section>
+    <!-- location section ends -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="blank"></div>
+        <div class="text">
+            <div class="text-inner">
+                <p>Copyright 2019 The Webplant Pvt Ltd</p>
+                <i class="fa fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+
+    <!-- javascript file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

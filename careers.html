@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Plant | Front-end, UI Development, Web Development, Application Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/careers.css">
+</head>
+
+<body>
+
+    <a href="#note"><i class="fa fa-arrow-up" id="up-arrow"></i></a>
+
+    <!-- note section start -->
+    <div class="note" id="note">
+        <div class="note-inner">
+            <p>We're looking for talented UI Developers. Mail us at resume@thewebplant.com</p>
+            <i class="fa fa-facebook"></i>
+        </div>
+    </div>
+
+    <!-- navigation section start -->
+   <!-- navigation section start -->
+   <nav>
+    <div class="nav-inner">
+        <a href="/index.html"><img src="images/thewebplant_logo_small.png" alt=""></a>
+        <ul id="nav-links">
+            <a href="/services.html"><li>Services</li></a>
+            <a href="/careers.html"><li id="blue">Careers</li></a>
+            <a href="/aboutUs.html"><li>About Us</li></a>
+            <a href="/request-to-quote.html"><li>Request a Quote</li></a>
+            <a href="/contact.html"><li>Contact</li></a>
+            <a href="/blog.html"><li>Blog</li></a>
+            <a href="/our-office.html"><li>Our Office</li></a>
+            <a href=""><li class="line">|</li></a>
+            <i class="fa fa-search" onclick="search()"></i>
+            <li class="search">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search..">
+            </li>
+        </ul>
+
+        <i class="fa fa-navicon" id="navicon" onclick="navbar()"></i>
+
+    </div>
+
+    
+    <!-- search box -->
+    <div class="search-box" id="search-tab">
+        <input type="text" placeholder="To Search Start Typing ...">
+        <i class="fa fa-close" onclick="closeSearch()"></i>
+    </div>
+</nav>
+<!-- navigation section ends -->
+    <!-- navigation section ends -->
+
+    <!-- banner section start -->
+    <section class="banner">
+        <div class="banner-inner">
+            <h4>JOIN US</h4>
+            <h1>LET’S CREATE <br> SOMETHING TOGETHER!</h1>
+        </div>
+    </section>
+    <!-- banner section ends -->
+
+    <main>
+        <div class="box line1">
+            <div class="part">
+                <h2>Core Values</h2>
+                <p>We have lots of fun doing work we love—and these tenets drive everything we do.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/laptop-image.jpeg" alt="">
+            </div>
+            <div class="part">
+                <h2>Craft</h2>
+                <p>We aim for excellence, and our love for what we do compels us to reach a higher standard. You can be
+                    proud of the work you do here.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="box line2">
+            <div class="part">
+                <img src="images/careers/Sustainable-Flow.jpg" alt="">
+            </div>
+            <div class="part">
+                <h2>Sustainable Flow</h2>
+                <p>The state of mind when time flies and energy is focused. We make time for it every day so we can
+                    create innovative solutions that people love.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/Ownership.jpg" alt="">
+            </div>
+            <div class="part">
+                <h2>Ownership</h2>
+                <p>We have a strong sense of individual responsibility. Every initiative has an owner, from major
+                    product strategy to curating which kombucha is on tap.</p>
+            </div>
+        </div>
+
+        <div class="box line3">
+            <div class="part">
+                <h2>Optimism</h2>
+                <p>We acknowledge and understand the reality of the challenges we face, and we always find a way
+                    forward.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/Optimism.jpg" alt="">
+            </div>
+            <div class="part">
+                <h2>Open Communication</h2>
+                <p>We respect one another enough to give and receive honest feedback. We champion the best ideas, no
+                    matter where they originate.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/Open-Communication.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="box line4">
+            <div class="part">
+                <img src="images/careers/Partnership.jpg" alt="">
+            </div>
+            <div class="part">
+                <h2>Partnership</h2>
+                <p>Working side by side, we build meaningful connections with each other and our clients.</p>
+            </div>
+            <div class="part">
+                <img src="images/careers/Inclusion.jpg" alt="">
+            </div>
+            <div class="part">
+                <h2>Inclusion</h2>
+                <p>We treat each other with consideration and respect, and we celebrate our differences with tolerance
+                    and inclusion. You know, the way we want to be treated.</p>
+            </div>
+        </div>
+    </main>
+    <!-- main section ends -->
+
+    <!-- image-slider section -->
+    <section class="image-slider" id="slider">
+        <div class="buttons">
+            <i class="fa fa-circle-o" id="btn1"></i>
+            <i class="fa fa-circle-o" id="btn2"></i>
+            <i class="fa fa-circle-o" id="btn3"></i>
+            <i class="fa fa-circle-o" id="btn4"></i>
+            <i class="fa fa-circle-o" id="btn5"></i>
+            <i class="fa fa-circle-o" id="btn6"></i>
+            <i class="fa fa-circle-o" id="btn7"></i>
+            <i class="fa fa-circle-o" id="btn8"></i>
+        </div>
+    </section>
+    <!-- image-slider section ends -->
+
+    <!-- facility section start -->
+    <section class="facility">
+
+        <div class="head">
+            <h1>Here are just a few of the reasons you’ll love it here.</h1>
+            <h4>Work with people who bring out the best in you!</h4>
+            <p>Our perks make The Webplant one of the most fun, lifestyle- oriented companies in New Delhi.</p>
+        </div>
+
+        <div class="container">
+            <div class="box">
+                <img src="images/careers/box1.png" alt="">
+                <h2>Life Insurance</h2>
+                <p>Life Insurance for you so your loved ones are always covered and safe</p>
+            </div>
+            <div class="box">
+                <img src="images/careers/Salary.png" alt="">
+                <h2>Competitive Salary</h2>
+                <p>We believe in attracting and keeping top talent, which is why we’re proud to offer salaries that
+                    match or
+                    exceed market rates.</p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box3.png" alt="">
+                <h2>Parental Leave</h2>
+                <p>We’re proud to offer new mothers 6 months of paid maternity leave.</p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box4.png" alt="">
+                <h2>Company social events</h2>
+                <p>Monthly happy hours, outings, and an annual retreat create fun opportunities to connect with
+                    coworkers
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box5.png" alt="">
+                <h2>Great Cafeteria</h2>
+                <p>Great coffee and tea makes it easy to stay energized at work.</p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box6.png" alt="">
+                <h2>Commute care-free</h2>
+                <p>Get to office safe and sound with our free transportation to and from work from nearest metro
+                    station.
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box7.png" alt="">
+                <h2>Referral bonuses</h2>
+                <p>Good people know good people: utilize your network and help us find the right person for the job.</p>
+            </div>
+            <div class="box">
+                <img src="images/careers/box8.png" alt="">
+                <h2>Birthday Celebrations</h2>
+                <p>Cakes and coke (you can’t escape us). We celebrate birthdays monthly. Just let us know your favourite
+                    kind of cake.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- facility section ends -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="blank"></div>
+        <div class="text">
+            <div class="text-inner">
+                <p>Copyright 2019 The Webplant Pvt Ltd</p>
+                <i class="fa fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+
+    <script src="js/careers.js"></script>
+</body>

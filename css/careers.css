@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+::selection{
+    background: yellow;
+}
+#blue{
+    color: #1CBAC8;
+}
+#up-arrow{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    padding: 12px;
+    position: fixed;
+    right: 5%;
+    bottom: 0px;
+    /* display: none; */
+    transition:0.5s;
+    transform: scale(0);
+}
+#navicon{
+    position: absolute;
+    right: 5%;
+    top:20px;
+    font-size: 25px;
+   color: rgb(136, 136, 136);
+   display: none;
+   padding: 10px;
+}
+.grey{
+    color: rgb(110, 110, 110);
+    font-weight: 800;
+}
+html{
+    font-size: 12px;
+    overflow-x:hidden ;
+}
+.note{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 1% 0%;
+}
+.note-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.note-inner p{
+    color: rgb(128, 128, 128);
+}
+.note-inner i{
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128);
+}
+/* navigation start */
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0px; 
+    background: white;
+    z-index: 5;
+    box-shadow: 0px 3px 5px 0px rgb(146, 146, 146);
+}
+.nav-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 1%;
+    position: relative;
+}
+.nav-inner img{
+    width: 250px;
+    height: 50px;
+}
+.nav-inner ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #868686;
+    font-weight: 700;
+    overflow: hidden;
+}
+.nav-inner ul a{
+    text-decoration: none;
+    color: grey;
+}
+.nav-inner ul a li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-inner ul a li:hover{
+    color: #1CBAC8;
+}
+.nav-inner ul i{
+    margin-left: 20px;
+    color: #868686;
+    margin-top: 4px;
+    font-size: 17px;
+}
+.nav-inner ul .line{
+    color: rgb(228, 228, 228);
+}
+.nav-inner ul .search{
+    display: none;
+}
+
+.search-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5% 1%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.search-box input{
+    width: 300px;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    color: #585757;
+}
+.search-box i{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+/* nav section ends */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    background-color: #22587C;
+    overflow: auto;
+}
+.banner-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    padding: 5% 1%;
+}
+.banner-inner h4{
+    font-size: 2rem;
+    margin-top: 140px;
+    color: silver;
+}
+.banner-inner h1{
+    font-size: 4rem;
+}
+/* banner ends */
+
+/* main start */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 1%;
+}
+main .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .box .part{
+    width: 23%;
+    padding: 2% 1%;
+}
+main .box .part img{
+    width: 100%;
+}
+main .box .part h2{
+    color: #222222;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+main .box .part p{
+    color: rgb(143, 143, 143);
+    line-height: 25px;
+}
+/* main ends */
+
+.image-slider{
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url('../images/careers/The-Web-Plant.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.image-slider .buttons{
+    position: absolute;
+    bottom: 3%;
+}
+.image-slider .buttons i{
+    color: grey;
+    padding: 10px;
+    font-size: 15px;
+}
+/* image slider ends */
+
+/* facility start */
+.facility{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 1%;
+   
+}
+.facility .head{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.facility .head h1{
+  font-size: 2.8rem;
+  color:#222222
+}
+.facility .head h4{
+    font-size: 1.2rem;
+    color:rgb(114, 114, 114);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facility .head p{
+    color: rgb(124, 124, 124);
+}
+.facility .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.facility .box{
+    width: 47%;
+    text-align: center;
+    margin-top: 100px;
+}
+.facility .box img{
+    width: 60px;
+}
+.facility .box h2{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.facility .box  p{
+    color: rgb(114, 114, 114);
+    font-size: 1.2rem;
+}
+/* facility ends */
+
+/* footer start */
+footer{
+    width: 100%;
+    margin-top: 20px;
+}
+footer .blank{
+    width: 100%;
+    height: 60px;
+    background-color: #262626;
+}
+footer .text{
+    width: 100%;
+    background-color: #1B1B1B;
+    padding: 2% 1%;
+}
+footer .text-inner{
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(129, 129, 129);
+}
+footer .text i{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+@media only screen and (max-width:1000px){
+    html{
+        font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width:940px){
+    html{
+        font-size: 11px;
+    }
+    #navicon{
+        display: block;
+        cursor: pointer;
+    }
+    nav{
+        position:relative;  
+    }
+    .nav-inner{
+        max-width: 800px;
+    }
+    nav .nav-inner ul{
+        width: 100%;
+        flex-direction: column;
+        background-color: #222222;
+        padding: 10px 0px;
+        max-height: 0px;
+        overflow: hidden;
+        padding: 0px;
+    }
+    nav .nav-inner ul li{
+        margin-bottom: 15px;
+        border-bottom: .5px dotted rgb(230, 230, 230);
+        padding: 7px 1px;
+    }
+    nav .nav-inner ul .line{
+        display: none;
+    }
+    nav .nav-inner ul .fa-search{
+        display: none;
+    }
+    nav .nav-inner ul .search{
+        display: block;
+        border-bottom: none;
+    }
+    nav .nav-inner ul .search input{
+        width: 100%;
+        height: 40px;
+        background-color: #444444;
+        border: none;
+        padding: 10px;
+        outline: none;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:726px){
+    main .box .part{
+        width:48%;
+    }
+}
+
+@media only screen and (max-width:577px){
+    main .box .part{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* .facility section */
+   .facility .box{
+       width: 80%;
+       margin: 0 auto;
+   }
+}
